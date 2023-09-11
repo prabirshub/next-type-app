@@ -38,10 +38,10 @@ const Accordion = ({ accordion }: { accordion: any }) => {
         </div>
         <div
           className={`${
-            isOpen ? 'min-h-[200px]' : 'min-h-0'
-          } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
+            isOpen ? 'max-h-[200px]' : 'min-h-0'
+          } max-h-0 overflow-hidden flex justify-center transition-all duration-300 px-[30px]`}
         >
-          <div className='mt-6 dark:text-dark'>{answer}</div>
+          <div className='mt-4 dark:text-dark pb-4'>{answer}</div>
         </div>
       </motion.div>
     </div>
