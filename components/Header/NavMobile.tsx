@@ -13,7 +13,7 @@ const NavMobile = () => {
   }
 
   return (
-    <nav className='lg:hidden'>
+    <nav className='xl:hidden'>
       <div>
         <button
           onClick={navbarToggleHandler}

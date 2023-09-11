@@ -13,7 +13,9 @@ const TabContents = ({ content }: { content: [] }) => {
             className='grid grid-cols-my-columns gap-8 items-center mb-6'
           >
             <FaAngleDoubleRight className='text-purple-500' />
-            <p className='text-gray-600 leading-relaxed'>{singleContent}</p>
+            <p className='text-gray-600 leading-relaxed dark:text-body-color'>
+              {singleContent}
+            </p>
           </div>
         )
       })}

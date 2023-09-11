@@ -1,3 +1,5 @@
+import QuestionMarkIcn from '../public/assets/question-mark.svg'
+
 export const navData = [
   { title: 'Home', path: '/', id: 1 },
   { title: 'About', path: '/about', id: 2 },
@@ -68,3 +70,44 @@ export const tabData = [
     ],
   },
 ]
+
+export const faq = {
+  icon: QuestionMarkIcn,
+  accordions: [
+    {
+      question: 'Are public speaking classes worth it?',
+      answer:
+        'Public speaking classes can help you boost your confidence, communicate better, and improve your research and writing skills. You can find various options to learn and practice public speaking, such as online courses, local clubs, or events.',
+    },
+    {
+      question: 'What is Confident Speakers Academy??',
+      answer:
+        'Confident Speakers Academy is an organisation dedicated to building the confidence of native and non-native English speakers who want to become better communicators. They offer a range of services, both for individuals and organisations, such as online courses, coaching, workshops, and webinars.',
+    },
+    {
+      question: 'Can public speaking be a hobby?',
+      answer:
+        'Public speaking can be a hobby if you enjoy it and want to improve your skills and impact. It can boost your confidence, communication, persuasion, and leadership abilities. You can speak on topics that interest you or that you want to share with others. You can also join clubs or communities where you can practice and receive feedback. Public speaking is a hobby that can benefit you in many ways.',
+    },
+    {
+      question: 'How public speaking boost your confidence?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'What public speaking teaches you',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Who is Rashmi Watel?',
+      answer:
+        'Rashmi Watel is the founder and lead coach of Confident Speakers Academy. She is a certified public speaking coach and a non-native English speaker herself. She has over 15 years of experience in the corporate world and has helped thousands of people improve their public speaking skills.',
+    },
+    {
+      question: 'How much does it cost to join CSA?',
+      answer:
+        'The cost of joining Confident Speakers Academy depends on the type and duration of the service you choose.',
+    },
+  ],
+}

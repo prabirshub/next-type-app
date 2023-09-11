@@ -12,16 +12,7 @@ const config: Config = {
       center: true,
       padding: '1rem',
     },
-    colors: {
-      current: 'currentColor',
-      transparent: 'transparent',
-      white: '#ffffff',
-      black: 'rgba(0, 0, 0, 0.5)',
-      dark: '#1C1C1C',
-      primary: '#EB0A93',
-      yellow: '#E49C2F',
-      'body-color': '#EAF2EF',
-    },
+
     screens: {
       xs: '450px',
       // => @media (min-width: 450px) { ... }
@@ -41,6 +32,16 @@ const config: Config = {
       heading: ['var(--font-playfair)'],
     },
     extend: {
+      colors: {
+        current: 'currentColor',
+        transparent: 'transparent',
+        white: '#ffffff',
+        black: 'rgba(0, 0, 0, 0.5)',
+        dark: '#1C1C1C',
+        primary: '#EB0A93',
+        yellow: '#E49C2F',
+        'body-color': '#EAF2EF',
+      },
       animation: { 'spin-slower': 'spin 60s linear infinite' },
       boxShadow: {
         cta: '0px 5px 10px rgba(4, 10, 34, 0.2)',
@@ -51,6 +52,13 @@ const config: Config = {
       backgroundImage: {
         heroLight: "url('../public/bg-pattern.svg')",
         heroDark: "url('../public/bg-dark.svg')",
+        faq: "url('../public/bg.svg')",
+      },
+      backgroundSize: {
+        auto: 'auto',
+        cover: 'cover',
+        contain: 'contain',
+        custom: '95%',
       },
       gridTemplateColumns: {
         'my-columns': 'auto 1fr',

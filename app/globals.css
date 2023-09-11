@@ -4,7 +4,7 @@
 
 @layer base {
   .primary-btn {
-    @apply rounded-md bg-primary py-3 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 shadow-cta capitalize;
+    @apply rounded-md bg-primary py-3 px-6 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 shadow-cta capitalize;
   }
   .active-btn {
     @apply shadow-tab-shadow text-primary;
