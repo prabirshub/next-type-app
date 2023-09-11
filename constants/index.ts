@@ -50,7 +50,7 @@ export const tabData = [
   {
     id: 'whyCSA',
     title: 'Why Us',
-    subtitle: 'Why CSA is the Best Choice for you',
+    subtitle: 'CSA is the Best Choice for you',
     content: [
       'It is an organisation dedicated to building the confidence of native and non-native English speakers. Founded by Rashmi Watel, a TEDx speaker who has defied the society norms and overcome her own turmoil',
       ' It offers online courses, workshops and coaching sessions that are tailored to the needs and goals of the learners',
