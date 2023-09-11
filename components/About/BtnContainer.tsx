@@ -11,7 +11,7 @@ const BtnContainer = ({
 }) => {
   return (
     <div className='flex items-center space-x-8 flex-wrap mb-6'>
-      {tabItems.map((tabitem, index) => {
+      {tabItems.map((tabitem: any, index: any) => {
         return (
           <button
             key={tabitem.id}
