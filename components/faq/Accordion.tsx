@@ -7,7 +7,7 @@ import { motion, easeInOut } from 'framer-motion'
 //variants
 import { fadeIn } from '@/variants'
 
-import { FaChevronCircleUp, FaChevronCircleDown } from 'react-icons/fa'
+import { HiOutlinePlus, HiOutlineMinus } from 'react-icons/hi'
 
 const Accordion = ({ accordion }: { accordion: any }) => {
   // accorion state
@@ -30,15 +30,15 @@ const Accordion = ({ accordion }: { accordion: any }) => {
           </h6>
           <div>
             {isOpen ? (
-              <FaChevronCircleUp className='text-[20px] text-zinc-500' />
+              <HiOutlineMinus className='text-[20px] text-dark' />
             ) : (
-              <FaChevronCircleDown className='text-[20px] text-zinc-500' />
+              <HiOutlinePlus className='text-[20px] text-dark' />
             )}
           </div>
         </div>
         <div
           className={`${
-            isOpen ? 'min-h-[200px] lg:min-h-[160px]' : 'min-h-0'
+            isOpen ? 'min-h-[200px]' : 'min-h-0'
           } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
         >
           <div className='mt-6 dark:text-dark'>{answer}</div>
