@@ -1,8 +1,15 @@
+import Header from '@/components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Playfair_Display } from 'next/font/google'
+import Footer from '@/components/Footer'
+import { Providers } from './providers'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +22,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='en'>
+      <body
+        className={`${inter.variable} ${playfair.variable} font-primary dark:bg-black`}
+      >
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
+      </body>
     </html>
   )
 }

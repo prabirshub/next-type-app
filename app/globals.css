@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  .primary-btn {
+    @apply rounded-md bg-primary py-3 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 shadow-cta capitalize;
+  }
+  .active-btn {
+    @apply shadow-tab-shadow text-primary;
   }
 }
+@layer components {
+  input[type='checkbox']:checked ~ label span svg {
+    @apply inline-flex;
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .sticky .header-logo {
+    @apply py-5 lg:py-2;
+  }
+
+  .sticky .menu-scroll.active {
+    @apply opacity-70;
+  }
+
+  input#togglePlan:checked ~ .dot {
+    @apply translate-x-full;
+  }
+
+  input#checkboxLabel:checked ~ .box span {
+    @apply opacity-100;
+  }
 }
