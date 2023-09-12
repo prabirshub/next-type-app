@@ -25,7 +25,7 @@ const Blog = () => {
         >
           <SectionTitle
             title='Our Latest Blogs'
-            paragraph='There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.'
+            paragraph='Our blog offers insights and tips on public speaking, based on research and experience. Learn how to present, connect, and engage with your audience.'
             center
           />
         </motion.div>
