@@ -48,7 +48,7 @@ export const tabData = [
     content: [
       'Rashmi Watel, a public speaking coach, TEDx speaker, and multi-award-winning entrepreneur.',
       'Through her public speaking and motivational coaching, she changes many lives and earns awards and media praise for her innovative and excellent work.',
-      'Despite personal and social challenges, Rashmi pursued her passion and became a successful businesswoman and a mother of two. She advocates for free and authentic communication for everyone.',
+      'Despite personal and social challenges, Rashmi pursued her passion and became a successful businesswoman and a mother of two future leaders. She advocates for freedom of expression and authentic communication for everyone.',
     ],
   },
   {
@@ -56,7 +56,7 @@ export const tabData = [
     title: 'Why Us',
     subtitle: 'CSA is the Best Choice for you',
     content: [
-      'It is an organisation dedicated to building the confidence of native and non-native English speakers. Founded by Rashmi Watel, a TEDx speaker who has defied the society norms and overcome her own turmoil',
+      'It is an organisation dedicated to building the confidence of native and non-native English speakers. Founded by Rashmi Watel, a TEDx speaker who has defied the societal norms and overcome her own turmoil',
       ' It offers online courses, workshops and coaching sessions that are tailored to the needs and goals of the learners',
       'It helps the learners to speak with clarity, fluency and impact in various settings such as online meetings, offices and interviews',
     ],
