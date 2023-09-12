@@ -12,7 +12,7 @@ const Nav = () => {
           return (
             <li key={id}>
               <Link
-                className='text-lg font-semibold hover:text-primary transition duration-300'
+                className='text-base font-semibold hover:text-primary transition duration-300'
                 href={path}
               >
                 {title}

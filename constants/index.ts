@@ -1,3 +1,5 @@
+import { Blog } from '@/types/blog'
+
 import QuestionMarkIcn from '../public/assets/question-mark.svg'
 
 export const navData = [
@@ -111,3 +113,48 @@ export const faq = {
     },
   ],
 }
+
+export const blogData: Blog[] = [
+  {
+    id: 1,
+    title: 'How to Overcome Your Fear of Public Speaking',
+    paragraph:
+      'In this blog post, we will share some of the tips and strategies that we use to help our clients become confident speakers.',
+    image: '/assets/blog/fear-of-public-speaking.png',
+    author: {
+      name: 'Rashmi Watel',
+      image: '/assets/rashmi-watel-author.png',
+      designation: 'Founder-CSA',
+    },
+    tags: ['Public Speaking'],
+    publishDate: '2023',
+  },
+  {
+    id: 2,
+    title: 'Master Public Speaking: 10 Tips from CSA',
+    paragraph:
+      'Public speaking is a skill that can benefit anyone, whether you are a student, a professional, or a leader.',
+    image: '/assets/blog/10-tips-from-csa.png',
+    author: {
+      name: 'Rashmi Watel',
+      image: '/assets/rashmi-watel-author.png',
+      designation: 'Founder-CSA',
+    },
+    tags: ['Public Speaking'],
+    publishDate: '2023',
+  },
+  {
+    id: 3,
+    title: 'How to Become a Confident Speaker in Any Situation',
+    paragraph:
+      'In this blog post, we will share with you some tips and hacks from the experts at Confident Speakers Academy',
+    image: '/assets/blog/confident-speaker-in-any-situation.png',
+    author: {
+      name: 'Rashmi Watel',
+      image: '/assets/rashmi-watel-author.png',
+      designation: 'Founder-CSA',
+    },
+    tags: ['Public Speaking'],
+    publishDate: '2023',
+  },
+]

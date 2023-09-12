@@ -21,7 +21,7 @@ const Hero = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.6 }}
-            className=' text-5xl lg:text-6xl font-heading text-dark font-bold mb-6 leading-[60px] dark:text-white'
+            className=' text-4xl lg:text-6xl font-heading text-dark font-bold mb-6 leading-[60px] dark:text-white'
           >
             Rediscover Your <br />
             <span className='text-primary'>Authenticity</span>
