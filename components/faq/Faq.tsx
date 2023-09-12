@@ -16,7 +16,7 @@ import SectionTitle from '../common/SectionTitle'
 const Faq = () => {
   const { accordions } = faq
   return (
-    <section className='relative z-10 bg-primary/10 py-12 md:py-20 lg:py-28'>
+    <section className='relative z-10 bg-primary/10 py-16 md:py-20 lg:py-28'>
       <div className='max-w-[600px] mx-auto bg-faq bg-no-repeat bg-custom bg-center lg:h-[920px] lg:pt-6 px-4 lg:px-0'>
         <motion.div
           variants={fadeIn('down', 0.2)}
