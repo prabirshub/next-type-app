@@ -8,8 +8,9 @@ const NewsLetterBox = () => {
         Subscribe to receive future updates
       </h3>
       <p className='mb-11 border-b border-black/10 border-opacity-25 pb-11 text-base font-medium leading-relaxed text-black dark:border-white dark:border-opacity-25 dark:text-white/70'>
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+        Confident Speakers Academy helps you master public speaking with
+        confidence and effectiveness. This is your opportunity to become a
+        confident speaker.
       </p>
       <form>
         <input

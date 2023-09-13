@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import Footer from '@/components/Footer'
 import { Providers } from './providers'
+import ScrollToTop from '@/components/common/ScrollToTop'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <ScrollToTop />
         </Providers>
       </body>
     </html>

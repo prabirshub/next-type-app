@@ -20,38 +20,39 @@ const Footer = () => {
                   <Logo />
                 </Link>
                 <p className='mb-9 text-base font-medium leading-relaxed text-black dark:text-body-color'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Confident Speakers Academy is a leading online platform that
+                  offers public speaking training and learning for both native
+                  and non-native English speakers.
                 </p>
                 <div className='flex items-center justify-center sm:justify-start mx-auto sm:mx-0'>
-                  <a
+                  <Link
                     href='/'
                     aria-label='social-link'
                     className='mr-6 text-[#fcafef] hover:text-primary'
                   >
                     <BiLogoFacebook size={26} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='/'
                     aria-label='social-link'
                     className='mr-6 text-[#fcafef] hover:text-primary'
                   >
                     <BiLogoLinkedin size={26} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='/'
                     aria-label='social-link'
                     className='mr-6 text-[#fcafef] hover:text-primary'
                   >
                     <BiLogoInstagramAlt size={26} />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='/'
                     aria-label='social-link'
                     className='mr-6 text-[#fcafef] hover:text-primary'
                   >
                     <BiLogoYoutube size={26} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -63,40 +64,40 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/blog'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Blog{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='/'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Pricing{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/programs'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Workshops{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='/'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Online Classes{' '}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -109,40 +110,40 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/terms'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Terms & Condition{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/privacy'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Privacy Policy{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/disclaimer'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Disclaimer Policy{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/refund'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Refund Policy{' '}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -155,40 +156,40 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href='/'
-                      className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
-                    >
-                      {' '}
-                      Open Support Ticket{' '}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/contact'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       Contact Us{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/about'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
                       About{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='/'
+                    <Link
+                      href='/career'
                       className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
                     >
                       {' '}
-                      Chat{' '}
-                    </a>
+                      Career{' '}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href='/contact'
+                      className='mb-4 inline-block text-base font-medium text-black hover:text-primary dark:text-body-color'
+                    >
+                      {' '}
+                      Support{' '}
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -201,10 +202,10 @@ const Footer = () => {
               &copy; 2023 -{' '}
               <span className='text-primary'>Confident Speakers Academy</span> -
               All rights reserved. <br />
-              <a href='/' rel='nofollow noopener'>
+              <Link href='/' rel='nofollow noopener'>
                 Designed & developed by{' '}
                 <span className='text-primary'>fivexfast</span>
-              </a>
+              </Link>
             </p>
           </div>
         </div>
