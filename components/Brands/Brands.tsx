@@ -22,7 +22,7 @@ import { fadeIn } from '@/variants'
 
 const Brands = () => {
   return (
-    <section className='py-[50px] xl:py-0 xl:px-16 xl:h-[350px] bg-white flex flex-col justify-center dark:bg-dark'>
+    <section className='py-[50px] xl:py-0 xl:px-16 xl:h-[350px] bg-gray-50 flex flex-col justify-center dark:bg-dark'>
       <div className='container mx-auto'>
         <div className='grid grid-cols-3 gap-6 place-items-center xl:flex xl:flex-wrap xl:gap-x-6 xl:justify-between'>
           <div className='max-w-[145px]'>
