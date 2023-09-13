@@ -47,7 +47,8 @@ export const tabData = [
     subtitle: 'Meet Rashmi Watel, CSA founder',
     content: [
       'Rashmi Watel, a public speaking coach, TEDx speaker, and multi-award-winning entrepreneur.',
-      'Through her public speaking and motivational coaching, she changes many lives and earns awards and media praise for her innovative and excellent work.',
+      'Through her public speaking and motivational coaching, she changes many lives and earns awards and media praise for her innovative and excellent work. She believes anyone can master public speaking with tools that make them confident and competent communicators.',
+
       'Despite personal and social challenges, Rashmi pursued her passion and became a successful businesswoman and a mother of two future leaders. She advocates for freedom of expression and authentic communication for everyone.',
     ],
   },
@@ -94,17 +95,17 @@ export const faq = {
     {
       question: 'How public speaking boost your confidence?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Public speaking boosts your confidence by allowing you to overcome your fear of speaking in front of others. It also gives you the opportunity to share your ideas and opinions with a wider audience.',
     },
     {
       question: 'What public speaking teaches you',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Public speaking teaches you how to communicate effectively and confidently with different audiences. It also helps you develop your critical thinking and creativity skills.',
     },
     {
       question: 'Who is Rashmi Watel?',
       answer:
-        'Rashmi Watel is the founder and lead coach of Confident Speakers Academy. She is a certified public speaking coach and a non-native English speaker herself. She has over 15 years of experience in the corporate world and has helped thousands of people improve their public speaking skills.',
+        'Rashmi Watel is the founder and lead coach of Confident Speakers Academy. She is a public speaking coach and a non-native English speaker herself. She has over 15 years of experience in the corporate world and has helped thousands of people improve their public speaking skills.',
     },
     {
       question: 'How much does it cost to join CSA?',
