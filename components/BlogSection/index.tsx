@@ -13,7 +13,7 @@ import { motion } from 'framer-motion'
 //variants
 import { fadeIn } from '@/variants'
 
-const Blog = () => {
+const BlogSection = () => {
   return (
     <section className='bg-primary/5 py-16 md:py-20 lg:py-28'>
       <div className='container'>
@@ -48,4 +48,4 @@ const Blog = () => {
     </section>
   )
 }
-export default Blog
+export default BlogSection

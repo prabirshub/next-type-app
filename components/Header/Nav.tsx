@@ -5,14 +5,14 @@ import { navData } from '@/constants'
 
 const Nav = () => {
   return (
-    <nav className='hidden xl:block'>
+    <nav className='hidden lg:block'>
       <ul className='flex items-center space-x-6'>
         {navData.map((navItem) => {
           const { title, path, id } = navItem
           return (
             <li key={id}>
               <Link
-                className='text-base font-semibold hover:text-primary transition duration-300'
+                className='text-base text-black font-semibold hover:text-primary transition duration-300'
                 href={path}
               >
                 {title}

@@ -44,14 +44,14 @@ const Footer = () => {
                     aria-label='social-link'
                     className='mr-6 text-[#fcafef] hover:text-primary'
                   >
-                    <BiLogoInstagramAlt size={26} />
+                    <BiLogoInstagramAlt className='mt-1' size={26} />
                   </Link>
                   <Link
                     href='/'
                     aria-label='social-link'
-                    className='mr-6 text-[#fcafef] hover:text-primary'
+                    className='mr-6  text-[#fcafef] hover:text-primary'
                   >
-                    <BiLogoYoutube size={26} />
+                    <BiLogoYoutube className='mt-1' size={26} />
                   </Link>
                 </div>
               </div>

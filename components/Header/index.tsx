@@ -59,7 +59,7 @@ const Header = () => {
               <div>
                 {/* Navgation */}
                 <Nav />
-                <div className='lg:hidden flex items-center gap-x-12'>
+                <div className='lg:hidden flex items-center gap-x-12 md:gap-x-10'>
                   <ThemeToggler />
                   <NavMobile />
                 </div>
