@@ -1,7 +1,7 @@
 import WhyUs from '@/components/About/WhyUs'
 import BlogSection from '@/components/BlogSection'
 
-import Brands from '@/components/Home/Brands'
+import Brands from '@/components/Brands/Brands'
 import BusinessPrograms from '@/components/Home/BusinessPrograms'
 import Contact from '@/components/Home/Contact'
 import Hero from '@/components/Home/Hero'

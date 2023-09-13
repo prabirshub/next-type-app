@@ -1,4 +1,5 @@
 import { Blog } from '@/types/blog'
+import { BrandsData } from '@/types/brands'
 
 import QuestionMarkIcn from '../public/assets/question-mark.svg'
 
@@ -157,5 +158,99 @@ export const blogData: Blog[] = [
     },
     tags: ['Public Speaking'],
     publishDate: '2023',
+  },
+]
+
+export const brandsData: BrandsData[] = [
+  {
+    id: 1,
+    title: 'asetts',
+    image: '/assets/company-logo/asetts-logo.svg',
+    width: 395,
+    height: 142,
+  },
+  {
+    id: 2,
+    title: 'befriend',
+    image: '/assets/company-logo/befriend-logo.svg',
+    width: 116,
+    height: 142,
+  },
+  {
+    id: 3,
+    title: 'City of Canning',
+    image: '/assets/company-logo/city-of-canning-logo.svg',
+    width: 345,
+    height: 148,
+  },
+  {
+    id: 4,
+    title: 'Curtin University',
+    image: '/assets/company-logo/curtin-university.svg',
+    width: 439,
+    height: 73,
+  },
+  {
+    id: 5,
+    title: 'Dress for Success',
+    image: '/assets/company-logo/dress-for-success-logo.svg',
+    width: 589,
+    height: 81,
+  },
+  {
+    id: 6,
+    title: 'GSEB',
+    image: '/assets/company-logo/gesb-logo.svg',
+    width: 181,
+    height: 146,
+  },
+  {
+    id: 7,
+    title: 'gov of western australia',
+    image: '/assets/company-logo/gov-of-western-australia.svg',
+    width: 135,
+    height: 128,
+  },
+  {
+    id: 8,
+    title: 'Kalamunda',
+    image: '/assets/company-logo/kalamunda.svg',
+    width: 246,
+    height: 145,
+  },
+  {
+    id: 9,
+    title: 'Landgate',
+    image: '/assets/company-logo/landgate-logo.svg',
+    width: 241,
+    height: 128,
+  },
+  {
+    id: 10,
+    title: 'Mental health first aid',
+    image: '/assets/company-logo/mental-health-first-aid-logo.svg',
+    width: 238,
+    height: 192,
+  },
+  {
+    id: 11,
+    title: 'Rio tinto',
+    image: '/assets/company-logo/rio-tinto-logo.svg',
+    width: 289,
+    height: 61,
+  },
+  {
+    id: 12,
+    title: 'She metors',
+    image: '/assets/company-logo/she-metors.svg',
+    width: 388,
+    height: 60,
+  },
+  {
+    id: 13,
+    title: 'western power',
+    image: '/assets/company-logo/western-power-logo.svg',
+    width: 135,
+    height: 128,
   },
 ]
