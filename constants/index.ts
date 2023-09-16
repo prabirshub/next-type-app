@@ -84,7 +84,7 @@ export const faq = {
         'Public speaking classes can help you boost your confidence, communicate better, and improve your research and writing skills. You can find various options to learn and practice public speaking, such as online courses, local clubs, or events.',
     },
     {
-      question: 'What is Confident Speakers Academy??',
+      question: 'What is Confident Speakers Academy?',
       answer:
         'Confident Speakers Academy is an organisation dedicated to building the confidence of native and non-native English speakers who want to become better communicators. They offer a range of services, both for individuals and organisations, such as online courses, coaching, workshops, and webinars.',
     },

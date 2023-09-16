@@ -5,9 +5,9 @@ const BlogPage = () => {
   return (
     <>
       <Breadcrumb
-        title='Blog Details Page'
+        title='Latest Blogs'
         pageName='Blog Grid'
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.'
+        description='Discover and grow from our blogs. We offer you plenty of advice and insights on public speaking, career development and motivation. Have fun reading and tell us what you want to learn more about.'
       />
       <section className='pt-[120px] pb-[120px]'>
         <div className='container'>

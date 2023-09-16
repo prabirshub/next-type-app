@@ -4,9 +4,9 @@ const AboutPage = () => {
   return (
     <main className='h-[80vh]'>
       <Breadcrumb
-        title='About Page Title'
+        title='Meet Rashmi Watel!'
         pageName='About Page'
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.'
+        description='Rashmi Watel is the founder and lead coach of Confident Speakers Academy. She is a public speaking coach and a non-native English speaker herself.'
       />
     </main>
   )
