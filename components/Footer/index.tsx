@@ -20,9 +20,9 @@ const Footer = () => {
                   <Logo />
                 </Link>
                 <p className='mb-9 text-base font-medium leading-relaxed text-black dark:text-body-color'>
-                  Confident Speakers Academy is a leading platform that offers
-                  public speaking training and learning for both native and
-                  non-native English speakers.
+                  Confident Speakers Academy is a leading digital platform that
+                  offers public speaking training and learning for both native
+                  and non-native English speakers.
                 </p>
                 <div className='flex items-center justify-center sm:justify-start mx-auto sm:mx-0'>
                   <Link
