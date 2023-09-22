@@ -48,9 +48,9 @@ export const tabData = [
     subtitle: 'Meet Rashmi Watel, CSA founder',
     content: [
       'Rashmi Watel, a public speaking coach, TEDx speaker, and multi-award-winning entrepreneur.',
-      'Through her public speaking and motivational coaching, she changes many lives and earns awards and media praise for her innovative and excellent work. She believes anyone can master public speaking with tools that make them confident and competent communicators.',
+      'Her expertise in public speaking and motivational coaching has positively impacted numerous lives, earning her recognition and commendation from the media for her innovative and superior work. She firmly believes that with the right tools, anyone can become a confident and effective communicator.',
 
-      'Despite personal and social challenges, Rashmi pursued her passion and became a successful businesswoman and a mother of two future leaders. She advocates for freedom of expression and authentic communication for everyone.',
+      'Despite facing personal and societal hurdles, Rashmi remained undeterred in her pursuit of her passion. She emerged as a successful businesswoman and a proud mother of two potential future leaders. She staunchly advocates for the right to free speech and encourages everyone to communicate authentically.',
     ],
   },
   {
@@ -86,12 +86,12 @@ export const faq = {
     {
       question: 'What is Confident Speakers Academy?',
       answer:
-        'Confident Speakers Academy is an organisation dedicated to building the confidence of native and non-native English speakers who want to become better communicators. They offer a range of services, both for individuals and organisations, such as online courses, coaching, workshops, and webinars.',
+        'Confident Speakers Academy is  an organisation committed to enhancing the communication skills of English speakers. We provide Digital courses, coaching, workshops, and webinars for individuals and organizations.',
     },
     {
       question: 'Can public speaking be a hobby?',
       answer:
-        'Public speaking can be a hobby if you enjoy it and want to improve your skills and impact. It can boost your confidence, communication, persuasion, and leadership abilities. You can speak on topics that interest you or that you want to share with others. You can also join clubs or communities where you can practice and receive feedback. Public speaking is a hobby that can benefit you in many ways.',
+        'Public speaking, if enjoyed, can be a hobby that enhances your confidence, communication, and leadership skills. It allows you to share your interests and receive feedback in clubs or communities, offering numerous benefits.',
     },
     {
       question: 'How public speaking boost your confidence?',
@@ -112,6 +112,11 @@ export const faq = {
       question: 'How much does it cost to join CSA?',
       answer:
         'The cost of joining Confident Speakers Academy depends on the type and duration of the service you choose.',
+    },
+    {
+      question: 'What should I do if I have more questions?',
+      answer:
+        'We are more than happy to assist you. Don’t hesitate to contact us directly with any doubts you may have.',
     },
   ],
 }

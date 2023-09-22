@@ -65,12 +65,12 @@ const Brands = () => {
               alt='asetts logo'
             />
           </div>
-          <div className='max-w-[60px]'>
+          <div className='max-w-[140px]'>
             <Image
-              src='/assets/company-logo/gov-of-western-australia.svg'
-              width={135}
-              height={128}
-              alt='asetts logo'
+              src='/assets/company-logo/western-power-logo.svg'
+              width={367}
+              height={119}
+              alt='western power'
             />
           </div>
         </div>

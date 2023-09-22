@@ -38,7 +38,7 @@ const Accordion = ({ accordion }: { accordion: any }) => {
         </div>
         <div
           className={`${
-            isOpen ? 'max-h-[200px]' : 'min-h-0'
+            isOpen ? 'max-h-[250px]' : 'min-h-0'
           } max-h-0 overflow-hidden flex justify-center transition-all duration-300 px-[30px]`}
         >
           <div className='mt-4 dark:text-dark pb-4'>{answer}</div>

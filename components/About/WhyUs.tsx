@@ -53,9 +53,9 @@ const WhyUs = () => {
                   initial='hidden'
                   whileInView={'show'}
                   viewport={{ once: false, amount: 0.6 }}
-                  className='mb-8 text-3xl font-heading font-bold text-dark dark:text-white sm:text-4xl md:text-[45px]'
+                  className='mb-8 text-3xl font-heading font-bold text-dark dark:text-white sm:text-4xl md:text-[45px] capitalize'
                 >
-                  Who We Are
+                  our identity
                 </motion.h3>
                 <motion.p
                   variants={fadeIn('down', 0.4)}
