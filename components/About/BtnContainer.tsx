@@ -18,8 +18,8 @@ const BtnContainer = ({
             onClick={() => setCurrentItem(index)}
             className={
               index === currentItem
-                ? 'uppercase text-sm font-bold transition-all duration-300 hover:text-primary hover:shadow-tab-shadow active-btn'
-                : 'uppercase text-sm font-semibold transition-all hover:text-primary hover:shadow-tab-shadow'
+                ? 'uppercase text-xs md:text-sm font-bold transition-all duration-300 hover:text-primary hover:shadow-tab-shadow active-btn '
+                : 'uppercase text-xs md:text-sm font-semibold transition-all hover:text-primary hover:shadow-tab-shadow'
             }
           >
             {tabitem.title}

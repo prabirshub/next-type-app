@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 //motion
-import { motion, easeInOut } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 //variants
 import { fadeIn } from '@/variants'
