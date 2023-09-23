@@ -5,7 +5,7 @@ const Programs = () => {
       <Breadcrumb
         title='Workshops and Courses'
         pageName='Program Page'
-        description='Learn how to boost your productivity by working smarter, not harder. Learn how to speak confidently and persuasively in any situation with our courses and workshops. Achieve your personal and professional goals by mastering the art of public speaking'
+        description='Learn how to boost your productivity by working smarter, not harder. Speak confidently and persuasively in any situation with our courses and workshops. Achieve your personal and professional goals by mastering the art of public speaking'
       />
     </main>
   )
