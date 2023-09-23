@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className='w-full px-4 lg:w-1/2'>
               <SectionTitle
                 title='Your Benefits'
-                paragraph='Our products and services benefit customers in numerous ways:'
+                paragraph='We provide feedback, support, and guidance throughout the learning process to help our clients achieve their desired outcomes. Our products and services benefit customers in numerous ways:'
                 mb='44px'
               />
 
