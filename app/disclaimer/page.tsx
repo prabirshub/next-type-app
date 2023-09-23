@@ -1,13 +1,15 @@
 import Breadcrumb from '@/components/common/Breadcrumb'
+import DisclaimerSection from '@/components/legal/DisclamerSection'
 
 const DisclaimerPage = () => {
   return (
     <main className='h-[80vh]'>
       <Breadcrumb
-        title='Disclaimer Page Title'
+        title='Disclaimer'
         pageName='Disclaimer Page'
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.'
+        description='The information and content on our website are for educational and informational purposes only.'
       />
+      <DisclaimerSection />
     </main>
   )
 }

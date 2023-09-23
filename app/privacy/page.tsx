@@ -1,13 +1,15 @@
 import Breadcrumb from '@/components/common/Breadcrumb'
+import PrivacyPolicy from '@/components/legal/PrivacyPolicy'
 
 const PrivacyPage = () => {
   return (
-    <main className='h-[80vh]'>
+    <main>
       <Breadcrumb
-        title='Privacy Page Title'
+        title='Privacy Policy'
         pageName='Privacy Page'
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.'
+        description='This following document sets forth the Privacy Policy for the Confident Speakers Academy website, www.________________.com.'
       />
+      <PrivacyPolicy />
     </main>
   )
 }

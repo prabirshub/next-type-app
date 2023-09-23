@@ -1,13 +1,15 @@
 import Breadcrumb from '@/components/common/Breadcrumb'
+import RefundPolicy from '@/components/legal/RefundPolicy'
 
 const RefundPage = () => {
   return (
     <main className='h-[80vh]'>
       <Breadcrumb
-        title='Refund Page Title'
+        title='Returns and Refund Policy'
         pageName='Refund Page'
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero.'
+        description="We understand that things don't always go to plan but we do not issue refunds or accept returns due to change of mind or order error"
       />
+      <RefundPolicy />
     </main>
   )
 }
