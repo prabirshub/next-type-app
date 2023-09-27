@@ -28,7 +28,7 @@ const BlogPage = () => {
                 <li className='mx-1'>
                   <a
                     href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[55%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
+                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[55%] px-4 text-sm text-black dark:text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
                   >
                     Prev
                   </a>
@@ -36,7 +36,7 @@ const BlogPage = () => {
                 <li className='mx-1'>
                   <a
                     href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
+                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black dark:text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
                   >
                     1
                   </a>
@@ -44,36 +44,22 @@ const BlogPage = () => {
                 <li className='mx-1'>
                   <a
                     href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
+                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black dark:text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
                   >
                     2
                   </a>
                 </li>
+
                 <li className='mx-1'>
-                  <a
-                    href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
-                  >
-                    3
-                  </a>
-                </li>
-                <li className='mx-1'>
-                  <a className='flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black'>
+                  <a className='flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black dark:text-body-color'>
                     ...
                   </a>
                 </li>
+
                 <li className='mx-1'>
                   <a
                     href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
-                  >
-                    12
-                  </a>
-                </li>
-                <li className='mx-1'>
-                  <a
-                    href='#0'
-                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
+                    className='flex h-9 min-w-[36px] items-center justify-center rounded-md bg-primary/30 bg-opacity-[15%] px-4 text-sm text-black dark:text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white'
                   >
                     Next
                   </a>

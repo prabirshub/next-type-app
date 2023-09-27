@@ -13,9 +13,9 @@ const Footer = () => {
     <>
       <footer className='relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24'>
         <div className='container'>
-          <div className='mx-auto lg:-mx-4 flex flex-wrap px-4'>
+          <div className='mx-auto lg:mx-4 flex flex-wrap px-4'>
             <div className='w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12'>
-              <div className='mb-12 max-w-[360px] lg:mb-16 mx-auto sm:mx-0 text-center sm:text-left'>
+              <div className='mb-12 max-w-[360px] lg:mb-16 mx-auto sm:mx-0 sm:text-left'>
                 <Link href='/' className='mb-8 inline-block'>
                   <Logo />
                 </Link>
@@ -24,7 +24,7 @@ const Footer = () => {
                   offers public speaking training and learning for both native
                   and non-native English speakers.
                 </p>
-                <div className='flex items-center justify-center sm:justify-start mx-auto sm:mx-0'>
+                <div className='flex items-center justify-start sm:justify-start mx-auto sm:mx-0'>
                   <Link
                     href='/'
                     aria-label='social-link'
@@ -198,7 +198,7 @@ const Footer = () => {
         </div>
         <div className='bg-primary/10 py-8'>
           <div className='container'>
-            <p className='text-center text-sm text-black dark:text-white'>
+            <p className='text-center text-sm text-black dark:text-white leading-6'>
               &copy; 2023 -{' '}
               <span className='text-primary'>Confident Speakers Academy</span> -
               All rights reserved. <br />
